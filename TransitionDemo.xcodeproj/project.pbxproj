@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76120E415AEA8A5004539E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76120E315AEA8A5004539E5 /* UIKit.framework */; };
+		A76120E615AEA8A5004539E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76120E515AEA8A5004539E5 /* Foundation.framework */; };
+		A76120E815AEA8A5004539E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76120E715AEA8A5004539E5 /* CoreGraphics.framework */; };
+		A76120EE15AEA8A5004539E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76120EC15AEA8A5004539E5 /* InfoPlist.strings */; };
+		A76120F015AEA8A5004539E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76120EF15AEA8A5004539E5 /* main.m */; };
+		A76120F415AEA8A5004539E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76120F315AEA8A5004539E5 /* AppDelegate.m */; };
+		A76120FF15AEA8F0004539E5 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76120FE15AEA8F0004539E5 /* MyModalViewController.m */; };
+		A761210215AEA96E004539E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A761210115AEA96E004539E5 /* RootViewController.m */; };
+		A761210415AEAD20004539E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A761210315AEAD20004539E5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A76120DF15AEA8A5004539E5 /* TransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76120E315AEA8A5004539E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A76120E515AEA8A5004539E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A76120E715AEA8A5004539E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A76120EB15AEA8A5004539E5 /* TransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		A76120ED15AEA8A5004539E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76120EF15AEA8A5004539E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A76120F115AEA8A5004539E5 /* TransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A76120F215AEA8A5004539E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A76120F315AEA8A5004539E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A76120FD15AEA8F0004539E5 /* MyModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModalViewController.h; sourceTree = "<group>"; };
+		A76120FE15AEA8F0004539E5 /* MyModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModalViewController.m; sourceTree = "<group>"; };
+		A761210015AEA96E004539E5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A761210115AEA96E004539E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A761210315AEAD20004539E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76120DC15AEA8A5004539E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A761210415AEAD20004539E5 /* QuartzCore.framework in Frameworks */,
+				A76120E415AEA8A5004539E5 /* UIKit.framework in Frameworks */,
+				A76120E615AEA8A5004539E5 /* Foundation.framework in Frameworks */,
+				A76120E815AEA8A5004539E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76120D415AEA8A5004539E5 = {
+			isa = PBXGroup;
+			children = (
+				A761210315AEAD20004539E5 /* QuartzCore.framework */,
+				A76120E915AEA8A5004539E5 /* TransitionDemo */,
+				A76120E215AEA8A5004539E5 /* Frameworks */,
+				A76120E015AEA8A5004539E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76120E015AEA8A5004539E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76120DF15AEA8A5004539E5 /* TransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76120E215AEA8A5004539E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76120E315AEA8A5004539E5 /* UIKit.framework */,
+				A76120E515AEA8A5004539E5 /* Foundation.framework */,
+				A76120E715AEA8A5004539E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A76120E915AEA8A5004539E5 /* TransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A76120F215AEA8A5004539E5 /* AppDelegate.h */,
+				A76120F315AEA8A5004539E5 /* AppDelegate.m */,
+				A761210015AEA96E004539E5 /* RootViewController.h */,
+				A761210115AEA96E004539E5 /* RootViewController.m */,
+				A76120FD15AEA8F0004539E5 /* MyModalViewController.h */,
+				A76120FE15AEA8F0004539E5 /* MyModalViewController.m */,
+				A76120EA15AEA8A5004539E5 /* Supporting Files */,
+			);
+			path = TransitionDemo;
+			sourceTree = "<group>";
+		};
+		A76120EA15AEA8A5004539E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76120EB15AEA8A5004539E5 /* TransitionDemo-Info.plist */,
+				A76120EC15AEA8A5004539E5 /* InfoPlist.strings */,
+				A76120EF15AEA8A5004539E5 /* main.m */,
+				A76120F115AEA8A5004539E5 /* TransitionDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76120DE15AEA8A5004539E5 /* TransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76120F715AEA8A5004539E5 /* Build configuration list for PBXNativeTarget "TransitionDemo" */;
+			buildPhases = (
+				A76120DB15AEA8A5004539E5 /* Sources */,
+				A76120DC15AEA8A5004539E5 /* Frameworks */,
+				A76120DD15AEA8A5004539E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionDemo;
+			productName = TransitionDemo;
+			productReference = A76120DF15AEA8A5004539E5 /* TransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76120D615AEA8A5004539E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A76120D915AEA8A5004539E5 /* Build configuration list for PBXProject "TransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A76120D415AEA8A5004539E5;
+			productRefGroup = A76120E015AEA8A5004539E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76120DE15AEA8A5004539E5 /* TransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76120DD15AEA8A5004539E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76120EE15AEA8A5004539E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76120DB15AEA8A5004539E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76120F015AEA8A5004539E5 /* main.m in Sources */,
+				A76120F415AEA8A5004539E5 /* AppDelegate.m in Sources */,
+				A76120FF15AEA8F0004539E5 /* MyModalViewController.m in Sources */,
+				A761210215AEA96E004539E5 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A76120EC15AEA8A5004539E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76120ED15AEA8A5004539E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76120F515AEA8A5004539E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A76120F615AEA8A5004539E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76120F815AEA8A5004539E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionDemo/TransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransitionDemo/TransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A76120F915AEA8A5004539E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitionDemo/TransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransitionDemo/TransitionDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76120D915AEA8A5004539E5 /* Build configuration list for PBXProject "TransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76120F515AEA8A5004539E5 /* Debug */,
+				A76120F615AEA8A5004539E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76120F715AEA8A5004539E5 /* Build configuration list for PBXNativeTarget "TransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76120F815AEA8A5004539E5 /* Debug */,
+				A76120F915AEA8A5004539E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76120D615AEA8A5004539E5 /* Project object */;
+}
